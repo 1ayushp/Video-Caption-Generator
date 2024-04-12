@@ -52,8 +52,8 @@ spacy-loggers==1.0.5
 srsly==2.4.8
 sympy==1.12
 thinc==8.1.12
-torch==2.0.0
-torchvision==0.15.1
+torch==1.11.0
+torchvision==0.12.0
 tqdm==4.65.0
 triton==2.0.0
 typer==0.7.0
