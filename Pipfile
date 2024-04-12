@@ -7,6 +7,8 @@ name = "pypi"
 numpy = "*"
 pandas = "*"
 matplotlib = "*"
+torch = "==2.0"
+torchvision = "==0.15"
 
 [dev-packages]
 
