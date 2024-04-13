@@ -18,7 +18,7 @@ import statistics
 import torchvision.models as models
 import pickle
 
-vocab=pickle.load(open('model/vocabulary.pkl','rb'))
+vocab=pickle.load(open('app/model/vocabulary.pkl','rb'))
 print(len(vocab.itos))
 #custom imports
 from custom_utils import load_checkpoint,save_checkpoint 
@@ -117,7 +117,7 @@ learning_rate = 3e-4
 
 model = CNNtoRNN(embed_size, hidden_size, vocab_size, num_layers).to(device)
 optimizer = optim.Adam(model.parameters(), lr=learning_rate)
-step = load_checkpoint(torch.load("model/my_checkpoint.pth.tar",map_location=torch.device("cpu")), model, optimizer)
+step = load_checkpoint(torch.load("app/model/my_checkpoint.pth.tar",map_location=torch.device("cpu")), model, optimizer)
 
 import cv2
 import os
