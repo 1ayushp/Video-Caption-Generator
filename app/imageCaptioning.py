@@ -1,3 +1,7 @@
+from flask import Flask
+
+app = Flask(__name__)
+
 # imports
 import torch 
 import torchvision.transforms as transforms
