@@ -9,4 +9,4 @@ pip install -r requirements.txt
 # python manage.py collectstatic --no-input
 
 # Run app/imageCaptioning.py 
-python app/imageCaptioning.py
+# python app/imageCaptioning.py
