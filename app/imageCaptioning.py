@@ -19,7 +19,7 @@ import torchvision.models as models
 import pickle
 
 vocab=pickle.load(open('app/model/vocabulary.pkl','rb'))
-print(len(vocab.itos))
+# print(len(vocab.itos))
 #custom imports
 from custom_utils import load_checkpoint,save_checkpoint 
 
